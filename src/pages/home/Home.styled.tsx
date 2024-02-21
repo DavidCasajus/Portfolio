@@ -6,6 +6,7 @@ export const Presentation = styled.section`
   animation-name: PrAn;
   animation-duration: 2s;
   position: relative;
+  padding: 25px;
 
   @keyframes PrAn {
     0% {
@@ -31,9 +32,14 @@ export const SobreMiContenido = styled.section`
   margin: 0 auto;
   color: white;
   width: 60%;
+  padding: 25px;
   animation-name: SBA;
   animation-duration: 2s;
   position: relative;
+
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+  }
 
   @keyframes SBA {
     0% {

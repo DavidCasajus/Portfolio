@@ -4,6 +4,7 @@ import { Grid } from "@mantine/core";
 import * as S from "./Home.styled";
 import { useState } from "react";
 import ExperienciaLaboral from "components/experienciaLaboral/ExperienciaLaboral";
+import { Aptitudes } from "components/Aptitudes/Aptitudes";
 
 const Home = () => {
   return (
@@ -15,14 +16,8 @@ const Home = () => {
             <S.Presentation id="presentacion">
               <h1>
                 Ingeniero Informático, Ingeniero de Software, Desarrollador de
-                Applicaciónes multiplataforma
+                Applicaciónes Multiplataforma
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti, impedit voluptatibus eum maxime quis eveniet sed
-                fugiat praesentium. Temporibus magnam exercitationem soluta
-                impedit ipsum ab consectetur architecto beatae atque deleniti.
-              </p>
               <img src={avatar} />
             </S.Presentation>
           </Grid.Col>
@@ -48,6 +43,7 @@ const Home = () => {
           </Grid.Col>
         </Grid>
         <ExperienciaLaboral />
+        <Aptitudes />
       </main>
     </>
   );
