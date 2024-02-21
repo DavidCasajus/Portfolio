@@ -60,7 +60,7 @@ const Aptitudes = () => {
                   Aptitudes Técnicas
                 </Title>
               </Container>
-              <ul style={{ ...listStyle, columnCount: 2 }}>
+              <ul style={{ ...listStyle, columnCount: 1 }}>
                 {aptitudesTecnicas.map((aptitud, index) => (
                   <li>
                     <Text key={index}>{aptitud}</Text>
