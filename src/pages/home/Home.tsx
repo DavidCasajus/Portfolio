@@ -30,9 +30,8 @@ const Home = () => {
                 <h1>David Casajús Calvet</h1>
                 <p>
                   Ingeniero informático especializado en ingeniería del
-                  software, con experiencia en el ámbito de desarrollo web, pero
-                  también con ganas de dar oportunidad a nuevos ámbitos. Soy una
-                  persona proactiva y con una mentalidad abierta hacia el
+                  software, con experiencia en el ámbito de desarrollo web. Soy
+                  una persona proactiva y con una mentalidad abierta hacia el
                   aprendizaje continuo. Siempre estoy buscando oportunidades
                   para ampliar mis conocimientos. Estoy dispuesto y preparado
                   para enfrentar nuevos desafíos, crecer profesionalmente y
